@@ -16,7 +16,8 @@ public class Adactin  extends BaseClass {
 		 WebElement element2 = h.findLocatorsbyid("password");
 		 InputText(element2, h.excelread("C:\\Users\\user\\eclipse-workspace\\selenium_myproject1\\excel\\demo.xlsx", "Sheet2", 1,1 ));
 		 click(h.findLocatorsbyname("login"));
-	}
+		 h.Closebrowser();
+		 }
 
 }
 
